@@ -1,0 +1,268 @@
+body {
+    background-color: #f8f3ee;
+    color: #2d2d2d;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+#wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #6b4a6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    font-size: 2.8em;
+    margin: 0;
+}
+
+h2 {
+    color: #6b4a6b;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p {
+    color: #2d2d2d;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin: 15px 0;
+}
+
+.tagline {
+    color: #f5eaf5;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 16px;
+}
+
+nav a:hover {
+    color: #f7d8a8;
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 22px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.feature-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border: 3px solid #6b4a6b;
+    padding: 5px;
+    margin: 15px auto;
+    display: block;
+}
+
+.float-left {
+    float: left;
+    max-width: 280px;
+    margin: 10px 20px 10px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+figcaption {
+    color: #555555;
+    font-size: 0.85em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #6b4a6b;
+    margin: 30px 0;
+}
+
+ul,
+ol {
+    margin-left: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin: 25px 0;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    color: #6b4a6b;
+}
+
+th {
+    background-color: #6b4a6b;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    background-color: #f8f3ee;
+    color: #2d2d2d;
+    padding: 14px;
+    border-top: 1px solid #e2d6e2;
+    border-bottom: 1px solid #e2d6e2;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #6b4a6b;
+    border-left: 5px solid #6b4a6b;
+}
+
+tr:hover td {
+    background-color: #f3e8f3;
+}
+
+a {
+    color: #6b4a6b;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f7d8a8;
+}
+
+.image-text-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px auto;
+}
+
+.image-text-row figure {
+    margin: 0;
+    text-align: center;
+}
+
+.image-text-row p {
+    max-width: 420px;
+    text-align: left;
+}
+
+.image-text-row .feature-image {
+    max-width: 300px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.quick-links a {
+    background-color: #6b4a6b;
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quick-links a:hover {
+    background-color: #333333;
+    color: #f7d8a8;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.category-buttons {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.category-buttons li {
+    background-color: #6b4a6b;
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.category-buttons li:hover {
+    background-color: #333333;
+    color: #f7d8a8;
+}
+
+.small-image {
+    max-width: 350px;
+}
+
+.download-button {
+    background-color: #6b4a6b;
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.download-button:hover {
+    background-color: #333333;
+    color: #f7d8a8;
+}
