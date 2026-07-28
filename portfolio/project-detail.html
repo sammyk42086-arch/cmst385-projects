@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Samantha Krukowski Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Samantha Krukowski</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <p class="small-heading">Project Details</p>
+            <h1 id="project-title">Project Title</h1>
+            <p id="project-summary">Project summary will appear here.</p>
+        </section>
+
+        <section class="project-detail-layout">
+            <div class="project-image-box">
+                <p id="project-image-text">Project Screenshot / Image Placeholder</p>
+            </div>
+
+            <div class="content-card">
+                <h2>Project Overview</h2>
+                <p id="project-overview">Project overview will appear here.</p>
+
+                <p id="project-connection">Project connection will appear here.</p>
+
+                <p><strong>Tools Used:</strong> <span id="project-tools"></span></p>
+                <p><strong>Skills Shown:</strong> <span id="project-skills"></span></p>
+
+                <div class="project-buttons">
+                    <a href="#" class="button" id="view-project-button" target="_blank">View Project</a>
+                    <a href="projects.html" class="button secondary-button">Back to Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <h2>Design Process</h2>
+            <p id="project-process">Design process will appear here.</p>
+        </section>
+
+        <section class="preview-section">
+            <h2>Reflection</h2>
+            <p id="project-reflection">Reflection will appear here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Samantha Krukowski | Web & Digital Design Portfolio</p>
+    </footer>
+
+    <script>
+        const projects = {
+            "family-fork-weekly": {
+                title: "Family Fork Weekly Website",
+                summary: "A multi-page website project focused on family meal planning, recipe organization, grocery planning, layout design, and user-friendly navigation.",
+                image: "images/family-fork-weekly.png",
+                imageAlt: "Screenshot of the Family Fork Weekly website",
+                overview: "Family Fork Weekly is a multi-page website created to help families plan meals, organize recipes, and create grocery lists. This project allowed me to practice website structure, navigation, page layout, and visual consistency.",
+                connection: "This project connects closely to my interest in web and digital design because it combines technical website building with practical user-focused planning.",
+                tools: "HTML, CSS, GitHub, Aloft hosting",
+                skills: "Web design, navigation, content organization, layout planning, and responsive design basics.",
+                process: "For this project, I planned the purpose of the website and organized the content into separate pages. The site included areas for meal planning, recipe categories, grocery list support, and contact information. This helped me practice creating a website that is easy to follow and useful for a specific audience.",
+                reflection: "This project helped me improve my confidence with HTML, CSS, file organization, navigation, and troubleshooting. I selected it for my portfolio because it shows both my technical skills and my ability to design a useful website concept.",
+                link: "#"
+            },
+
+            "jelly-roll": {
+                title: "Jelly Roll Music Artist Website",
+                summary: "A music artist website focused on external CSS, image optimization, multi-page structure, navigation, and theme-based web design.",
+                image: "images/jelly-roll-site.png",
+                imageAlt: "Screenshot of the Jelly Roll music artist website",
+                overview: "The Jelly Roll artist website was created as a multi-page music artist site. This project focused on using external CSS, organizing multiple pages, optimizing images, and creating a consistent visual theme.",
+                connection: "This project connects to web and digital design because it shows how a website can be built around a specific audience, topic, and visual style.",
+                tools: "HTML, CSS, image optimization",
+                skills: "Multi-page website structure, external CSS, image use, navigation, and theme-based design.",
+                process: "For this project, I organized the website into separate pages and used external CSS to keep the design consistent. I also worked with images and layout choices to support the music artist theme.",
+                reflection: "This project helped me practice building a themed website and improved my understanding of how layout, images, color, and navigation work together in web design.",
+                link: "#"
+            },
+
+            "family-fork-logo": {
+                title: "Family Fork Kitchen Logo Design",
+                summary: "A logo design project focused on branding, concept development, color choices, and creating a clean visual identity.",
+                image: "images/family-fork-logo.png",
+                imageAlt: "Family Fork Kitchen logo design",
+                overview: "The Family Fork Kitchen logo design project focused on creating a visual identity for a food-related brand. The project included concept development, logo design, color choices, and versions that could be used in different formats.",
+                connection: "This project connects to my portfolio because branding is an important part of web and digital design. A strong logo helps create a consistent identity across websites, digital layouts, and marketing materials.",
+                tools: "Adobe Illustrator",
+                skills: "Branding, logo development, vector design, color, layout, and visual identity.",
+                process: "For this project, I developed logo concepts and refined the design into a clean final mark. I considered how the logo could work in different formats, including web use and square layouts.",
+                reflection: "This project helped me understand the importance of simplicity, consistency, and strong visual identity in branding work.",
+                link: "#"
+            },
+
+            "coloring-book": {
+                title: "Family Fork Kitchen Coloring Book",
+                summary: "A black-and-white coloring book layout created with vector graphics, line work, symbols, and creative illustration.",
+                image: "images/coloring-book.png",
+                imageAlt: "Family Fork Kitchen coloring book design",
+                overview: "The Family Fork Kitchen coloring book project was created using black-and-white vector artwork. This project focused on line work, symbols, layout, creative illustration, and page organization.",
+                connection: "This project connects to digital design because it shows my ability to create original vector artwork and organize a visual layout for a specific creative purpose.",
+                tools: "Adobe Illustrator",
+                skills: "Vector drawing, illustration, layout, symbols, line art, and creative design.",
+                process: "For this project, I used Illustrator tools to create simple, clean line art. I focused on making the design clear enough for a coloring book while still giving the page a fun and organized layout.",
+                reflection: "This project helped me improve my vector drawing skills and showed me how small design choices can affect the overall look and usability of an illustration.",
+                link: "#"
+            },
+
+            "healthy-meal-presentation": {
+                title: "Healthy Meal Planning Interactive Presentation",
+                summary: "An interactive presentation focused on healthy meal planning, clean layout, visual hierarchy, navigation, and user-friendly organization.",
+                image: "images/healthy-meal-presentation.png",
+                imageAlt: "Healthy Meal Planning interactive presentation screenshot",
+                overview: "The Healthy Meal Planning interactive presentation was created as a digital publishing project focused on organizing information in a clear and visually consistent way. The project used interactive navigation and structured content to guide viewers through meal planning information.",
+                connection: "This project connects to web and digital design because it shows my ability to organize content for users, build visual hierarchy, and create an interactive experience that is easy to follow.",
+                tools: "Adobe InDesign",
+                skills: "Interactive design, digital publishing, layout design, visual hierarchy, navigation, and user-focused organization.",
+                process: "For this project, I planned the content structure and used consistent page layouts to make the presentation easy to navigate. I focused on clear headings, organized sections, and buttons that helped users move through the content.",
+                reflection: "This project helped me understand how digital publishing and interactive layouts can support user experience. I selected it for my portfolio because it adds variety and shows skills beyond standard web pages and static graphics.",
+                link: "#"
+            },
+
+            "alice-motion": {
+                title: "Alice in Wonderland Motion Graphics",
+                summary: "A motion graphics project using animation, timing, typography, storytelling, movement, and visual effects.",
+                image: "images/alice-motion.png",
+                imageAlt: "Alice in Wonderland motion graphics screenshot",
+                overview: "The Alice in Wonderland motion graphics project used animation, movement, timing, typography, and storytelling to communicate a visual idea. This project helped me explore how motion can make digital content more engaging.",
+                connection: "This project connects to web and digital design because motion graphics are often used in digital media, websites, presentations, and online content.",
+                tools: "Adobe After Effects",
+                skills: "Animation, timing, motion graphics, visual storytelling, typography, and digital media.",
+                process: "For this project, I planned the movement, timing, and visual flow of the animation. I used After Effects to create motion and support the story through typography and visual effects.",
+                reflection: "This project helped me understand how animation can support communication and make digital content more visually engaging.",
+                link: "#"
+            }
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const selectedProject = urlParams.get("project") || "family-fork-weekly";
+        const project = projects[selectedProject];
+
+        if (project) {
+            document.getElementById("project-title").textContent = project.title;
+            document.getElementById("project-summary").textContent = project.summary;
+
+            const imageBox = document.querySelector(".project-image-box");
+
+            if (project.image) {
+                imageBox.innerHTML = `<img src="${project.image}" alt="${project.imageAlt}" class="detail-project-image">`;
+            } else {
+                document.getElementById("project-image-text").textContent = project.imageText;
+            }
+
+            document.getElementById("project-overview").textContent = project.overview;
+            document.getElementById("project-connection").textContent = project.connection;
+            document.getElementById("project-tools").textContent = project.tools;
+            document.getElementById("project-skills").textContent = project.skills;
+            document.getElementById("project-process").textContent = project.process;
+            document.getElementById("project-reflection").textContent = project.reflection;
+            document.getElementById("view-project-button").href = project.link;
+        }
+    </script>
+</body>
+</html>
